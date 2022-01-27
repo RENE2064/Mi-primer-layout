@@ -20,7 +20,7 @@ body {
   box-shadow: 7px 13px 37px #000;
 }
 
-.form__register h4 {
+.form__register legend {
   font-size: 22px;
   margin-bottom: 20px;
 }
@@ -35,7 +35,7 @@ body {
   font-size: 18px;
 }
 
-.form__register h4 {
+.form__register legend {
   text-align: center;
   font-size: 28px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(36, 144, 144);
+}
+
+.section legend {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: calibri;
+}
+
+.section {
+  margin: auto;
+  margin-top: 100px;
+  background-color: cadetblue;
+  border: 2px black solid;
+  border-radius: 10px;
+  width: 400px;
+  padding: 30px;
+  font-family: calibri;
+}
+
+.controls {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: burlywood;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-family: calibri;
+}
+
+.bottom {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  margin: 16px 0;
+  background-color: burlywood;
+}
+
+div .inicio {
+  border-radius: 4px;
+  background-color: brown;
+  font-size: 16px;
+  padding: 10px;
+  color: black;
+  display: flex;
+  flex-direction: end;
+  width: 200px;
+  margin: 10px;
+  margin-right: auto;
+}

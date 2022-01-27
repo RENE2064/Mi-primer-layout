@@ -7,6 +7,18 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.hero {
+  background-color: rgb(82, 82, 251);
+}
+
+.main {
+  background-color: rgb(82, 82, 251);
+}
+
+.footer {
+  background-color: rgb(82, 82, 251);
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -24,6 +36,10 @@ body {
 .navigation__title > img {
   width: 4rem;
   height: 4rem;
+}
+
+.navigation__title span {
+  color: black;
 }
 
 .navigation__title {
@@ -95,8 +111,16 @@ main {
   height: 12vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+
   border: 1px solid black;
+}
+
+.footer__item img {
+  width: 3rem;
+  height: 3rem;
+  margin: 8px;
+  margin-top: 20px;
+  margin-left: 60px;
 }
 
 @media (max-width: 600px) {
